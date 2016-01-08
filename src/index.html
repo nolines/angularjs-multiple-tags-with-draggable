@@ -1,0 +1,36 @@
+<html>
+
+  <head>
+    <link data-require="bootstrap@3.3.5" data-semver="3.3.5" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="tag-style.css">
+    <script data-require="angular.js@1.4.x" src="../app/bower_components/angular/angular.js" data-semver="1.4.3"></script>
+    <script src="tag-directive.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body ng-app="app">
+    <div class="col-xs-12" ng-controller="testController">
+      <div class="col-xs-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Somemto Source List 1
+          </div>
+          <div class="panel-body">
+            <tag-container ng-model="skills1"></tag-container>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Somemto Source List 1
+          </div>
+          <div class="panel-body">
+            <tag-container ng-model="skills2"></tag-container>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

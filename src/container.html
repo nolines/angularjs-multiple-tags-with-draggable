@@ -1,0 +1,12 @@
+<div style="height: 100%;">
+    <draggable-tag
+            ng-disabled="disabled"
+            ng-repeat="tag in tags"
+            group-code="tag.Group"
+            draggable-model="tag"
+            ng-model="tag.Name"
+            likes="tag.Likes"
+            dislikes="tag.Dislikes"
+            experts="tag.Experts">
+    </draggable-tag>
+</div>

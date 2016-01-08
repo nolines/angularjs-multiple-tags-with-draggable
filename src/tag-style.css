@@ -1,0 +1,43 @@
+.myTag {
+    margin: 3px;
+    display: table;
+    font-family: sans-serif;
+    font-size: 9pt;
+    overflow: hidden;
+    color: #e1e1e1;
+    background-color: #5b5b61;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.myTag-row {
+    display: table-row;
+}
+
+.myTag-row > div {
+    display: table;
+}
+
+.myTag-cell {
+    display: table-cell;
+    padding: 3px 8px;
+    font-size: 10pt;
+}
+
+.myTag-cell-small {
+    font-size: 8pt;
+}
+
+.myTag-cell-small > .glyphicon {
+    padding: 0 2px;
+}
+
+.myTag-icon {
+    background-color: #00adda;
+    padding: 4px 6px;
+    font-family: 'Glyphicons Halflings';
+    vertical-align: middle;
+    color: white;
+    position: relative;
+    display: table-cell;
+}
