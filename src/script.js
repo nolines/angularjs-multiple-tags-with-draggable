@@ -19,7 +19,7 @@
           { Name: 'Test 1', Group: 'source1', Likes: 1, Dislikes: 2, Experts: 3},
           { Name: 'Test 2', Group: 'source2', Likes: 1, Dislikes: 2, Experts: 3},
           { Name: 'Test 3', Group: 'source2', Likes: 1, Dislikes: 2, Experts: 3},
-          { Name: 'Test 4', Likes: 1, Dislikes: 2, Experts: 3}
+          { Name: 'Test 4', Likes: 2, Dislikes: 2, Experts: 3}
         ];
         $scope.skills2 = [
             { Name: 'Test 5', Group: 'source2', Likes: 1, Dislikes: 2, Experts: 3}
